@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+
+}
+.travel{
+    margin-left: 70px;
+    color: white;
+}
+.travel:hover{
+    color:  #b3f608d0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-left: 300px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    padding-left: 80px;
+}
+ul li:hover{
+    color: #b3f608d0;
+    font-weight: bolder;
+}
+
+.bg-img{
+    background-image: url(https://image.cnbcfm.com/api/v1/image/107178919-1673854215895-gettyimages-669463000-shutterstock_621020393.jpeg?v=1674003106);
+    height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;background-position: center;
+}
+.tour{
+    font-size: 30px;
+   text-align: center;
+   color: whitesmoke;
+   margin-top: 90px;
+}
+/* .card-body{
+    display: flex;
+} */
+
+h2{
+   margin-top: -40px;
+}
+
+/* Card body   */
+
+.card-body{
+    display: flex;
+}
+
+.option select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    /* border: none; */
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+.option{
+    background-color: rgb(236, 230, 230);
+    width: 40%;
+    height: 420px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+select option{
+    border: none;
+}
+
+button{
+    border: 1px solid black;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(227, 116, 32);
+}
+
+
+/* Card-Container Open  */
+img{
+    width: 300px;
+    height: 230px;
+    
+}
+.item{
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.item .info{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: -10px;
+    background-color: rgb(236, 230, 230);
+}
+
+.item1{
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+    height: 300px;
+    margin-top: -40px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.item1 .info{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: -10px;
+    background-color: rgb(236, 230, 230);
+}
+
+.info p{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.card-container{
+    margin-top: 50px;
+    margin-right: 350px;
+
+    
+}
+.card{
+    display: flex;
+    margin-left: -70px;
+}
+/* Card Container CLose  */
+
+/* Card Button Open */
+.card-btn{
+    margin-left: 500px;
+}
+
+.btn-next{
+    border: 1px solid black;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(227, 116, 32);
+    color: white;
+}
+/* Card Button CLose  */
+
+/* Footer open  */
+.card-footer {
+    background-color: rgba(66, 102, 242, 0.996);
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-footer p {
+    color: white;
+}
+
+.card-footer .privacy{
+    padding-top: 40px;
+}
+
+.card-footer .copy{
+    margin-top: -15px;
+}
+
+.card-footer .icon {
+    color: white;
+}
+
+.card-footer .icon i{
+    padding-left: 10px;
+}
+/* Footer close  */
